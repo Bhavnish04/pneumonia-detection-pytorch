@@ -18,3 +18,9 @@ The dataset is not uploaded here (too large).
 Download from Kaggle: [Chest X-ray Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)  
 Extract and keep it in this structure:
 
+🧠 Model
+
+Pretrained CNN (ResNet18) fine-tuned on X-ray dataset.
+Optimizer: Adam
+Loss: CrossEntropyLoss
+Evaluation Metrics: Accuracy, AUC, Confusion Matrix
